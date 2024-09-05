@@ -70,3 +70,15 @@ while (a<10){
    console.log("Print a")
    a++ 
 }
+
+
+let array1 = [1, 2, 3]
+let array2 = array1
+
+/* Esto NO solo le da el valor de array 1 al array 2, significa que estan entrelazados
+    SI CAMBIAS EL VALOR DE ARRAY 2 CAMBIARAS EL VALOR DE ARRAY 1 TAMBIEN
+    WHY?
+    PORQUE CUANDO DECLARAS UN ARRAY EL PC LE DA UN ESPACIO EN MEMORIA AL ARRAY DEFINIDO COMO [1, 2, 3]
+    Y ESE ARRAY GUARDADO EN MEMORIA SE LLAMA ARRAY 1 Y 2
+*/
+
